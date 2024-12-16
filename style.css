@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -65,21 +65,52 @@ section {
     text-transform: uppercase;
 }
 
-.table-date {
+.table-date, .table-price, .table-inclusion {
     border-collapse: collapse;
     width: 100%;
 }
 
+.table-inclusion{
+    font-size: 17px;
+}
+
 .table-date td,
-.table-date th {
+.table-date th,
+.table-price td,
+.table-price th,
+.table-inclusion td,
+.table-inclusion th
+{
     border: 2px solid #6f6f6f;
     padding: 15px 10px;
     font-weight: 700;
     text-align: center;
 }
 
-.table-date th {
+.table-inclusion th{
+    width: 50%;
+}
+
+.table-inclusion td{
+    padding: 20px;
+    text-align: left;
+    vertical-align: text-top;
+}
+
+.table-inclusion td ul{
+    padding-left: 20px;
+}
+
+.table-inclusion td li{
+    padding-bottom: 10px;
+}
+
+.table-date th, .table-price th, .table-inclusion th {
     color: #961e20;
+}
+
+.table-price td:nth-child(1){
+    text-align: left;
 }
 
 .table-date td:nth-child(4) {
@@ -95,10 +126,15 @@ section {
     text-transform: uppercase;
 }
 
-li {
-    padding-left: 15px;
+.trip-highlight ul, .tips ul {
+    padding-left: 20px;
+}
+
+.trip-highlight li, .tips li {
     margin-bottom: 5px;
 }
+
+
 
 svg {
     width: 24px;
@@ -242,4 +278,55 @@ b {
     height: 1px;
     background:  #e7e7e7;
     margin: 20px 0;
+}
+
+.text-red{
+    color: #961e20;
+}
+
+i{
+    font-style: italic;
+}
+
+h3.title-unlock {
+    color: #961e20;
+    font-weight: 700;
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.desc-unlock{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333333;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+h4.title-unlock {
+    font-size: 20px;
+    font-weight: 700;
+    color: #961e20; 
+    text-align: right; 
+    font-style: italic;
+}
+
+.info .info-name{
+    color: #961e20;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.info .info-level{
+    color: #961e20;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.img-banner img{
+    width: 100%;
 }
