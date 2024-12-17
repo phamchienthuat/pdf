@@ -15,7 +15,7 @@
     border: 1px solid #ccc;
     background: #fff;
 }
-
+/* 
 .header {
     display: flex;
     justify-content: space-between;
@@ -137,14 +137,13 @@ section {
 
 
 svg {
-    width: 24px;
-    height: 24px;
+
 }
 
-b {
+/* b {
     font-weight: 700;
-}
-
+} */
+/* 
 .title-tour {
     display: flex;
     justify-content: start;
@@ -329,4 +328,4 @@ h4.title-unlock {
 
 .img-banner img{
     width: 100%;
-}
+}  */
